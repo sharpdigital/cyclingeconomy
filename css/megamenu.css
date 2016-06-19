@@ -1,0 +1,85 @@
+/**
+ * Megamenu stylesheet for Velo.
+ *
+ * @package Velo
+ * @author  SunriseTheme
+ * @link	http://www.sunrisetheme.com
+ */
+.k2t-header .k2t-menu li.k2t-megamenu {
+	position: static;
+}
+.k2t-header .k2t-menu .mega-container {
+	background-color: #fff;
+	opacity: 0;
+	z-index: -1;
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	right: 0;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius:    0 0 3px 3px;
+	-ms-border-radius:     0 0 3px 3px;
+	border-radius:         0 0 3px 3px;
+	-webkit-transition: all .4s ease-in-out 0s;
+	-moz-transition:    all .4s ease-in-out 0s;
+	transition:         all .4s ease-in-out 0s;
+}
+.k2t-header .k2t-menu .k2t-megamenu:hover .mega-container,
+.k2t-header .k2t-menu .k2t-megamenu:hover .mega-container ul {
+	opacity: 1;
+	visibility: visible;
+	z-index: 100;
+}
+.k2t-header .k2t-menu .mega-container ul {
+	visibility: hidden;
+	opacity: 1;
+	position: static;
+	margin: 0;
+	border: 0;
+	overflow: hidden;
+	font-size: 85%;
+	background: none;
+	padding: 0;
+}
+.k2t-header .k2t-menu .mega-container > ul {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	visibility: hidden;
+	border-top: 1px solid rgba(0,0,0,.05);
+	padding: 40px 0 30px;
+}
+.k2t-header .k2t-menu .mega-container > ul > li {
+	max-width: 257px;
+	display: table-cell;
+	vertical-align: top;
+	border-top: 0;
+}
+.k2t-header .k2t-menu .mega-container > ul > li:last-child {
+	border-right: 0;
+}
+.k2t-header .k2t-menu .mega-container > ul > li > * {
+	margin: 0 15%;
+}
+.k2t-header .k2t-menu .mega-container > ul > li a {
+	border: 0;
+	padding: 0 0 10px;
+	font-size: 14px;
+} 
+.k2t-header .k2t-menu .mega-container .k2t-megamenu-submenu > a {
+	border-bottom: 1px dashed #252525;
+    color: #252525;
+    font-size: 115%;
+    font-weight: 600;
+    padding: 0 0 12px;
+}
+.k2t-header .k2t-menu .mega-container > ul > li > .sub-menu {
+	margin-top: 30px;
+}
+.k2t-header .k2t-menu .mega-container ul li .sub-menu.deep-level {
+	margin-left: 10px
+}
+.k2t-header .k2t-header-top .k2t-menu .mega-container {
+	background: #fff;
+	border-color: #ddd;
+}

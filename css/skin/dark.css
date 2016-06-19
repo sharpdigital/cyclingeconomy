@@ -1,0 +1,319 @@
+@charset "UTF-8";
+/* CSS Document */
+body,
+.k2t-header-top,
+.k2t-header-mid,
+.k2t-header-bot,
+.acc-wrapper.flat .accordion-title .plus-icon,
+#toggle-view li span,
+.pagination ul.page-numbers li a,
+.pagination ul.page-numbers li span,
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
+#flx-header,
+.shipping_calculator header,
+#calc_shipping_state, #calc_shipping_postcode,
+.woocommerce td.actions,
+.woocommerce .coupon label,
+.woocommerce .coupon .input-text  {
+	background-color: #1E2A2A;
+	color: #8B8B8B;
+}
+.boom-list li,
+.the-icons li,
+.testimonial-slider-1 .slides article p,
+.textwidget,
+.contact-address {
+	color: #8B8B8B;
+}
+
+header.k2t-header .sticky {
+	background-color: #1E2A2A !important;
+}
+
+/* Line color */	
+.k2t-body *,
+.k2t-header,
+.k2t-header .sticky,
+.k2t-divider,
+.vc_row.k2t-line > .container, .wpb_column.k2t-line,
+.k2t-line-left:not(.vc_row), .k2t-line-left > .container,
+.k2t-line-right:not(.vc_row), .k2t-line-right > .container,
+.k2t-line-top,
+.k2t-line-bottom,
+.wpb_row.k2t-custom-heading .k2t-heading,
+.flx-divider,
+#main-menu > li,
+.view,
+#flx-slides-2 .entry-item,
+.wrapper.flx-line,
+#main-content .portfolio-widget .widget-title, 
+#main-content .recent-widget .widget-title,
+#main-menu,
+#main-col,
+#page-bottom .flx-line,
+.dark-footer #page-bottom #bottom-sidebar > li,
+.team-area ul li,
+#main-content .flx-latest-blog .widget-title,
+.flx-home-page-3 .list-carousel.responsive,
+.flx-home-page-3 #main-content .portfolio-widget .widget-title,
+#sidebar,
+#sidebar .widget ul li,
+.widget_search #searchform #s,
+.flx-sidebar-s2 #sidebar,
+.about-area .flx-two-third ,
+.about-area .flx-one-third,
+#bottom-sidebar > li,
+#bottom-sidebar .contact-info,
+.service-widget ul li,
+.countdown-title li,
+.newsletter-form .email,
+.accordion-title,
+.elements-box .pf-box,
+.pf-box.mask-hover-2 > li,
+.post-item,
+.pagination ul.page-numbers li a,
+.pagination ul.page-numbers li span,
+.comments-list .comment,
+#comment_message,
+#comment_name, 
+#comment_url, 
+#comment_email,
+#contact_name, 
+#contact_email, 
+#contact_url,
+#contact_message,
+#bottom-sidebar > li,
+.countdown .clock li,
+.flx-slides-4 li .product-item,
+.flx-slides-4 li .product-item .product-thumb,
+.flx-slides-4 li .product-item .product-name,
+.product-widget .product-list li,
+.product-widget .product-list li .product-name,
+#main-content .hot-product-widget .widget-title,
+.flx-shop-page .fullwidthbanner-container,
+#sidebar .widget.color-choice-widget ul li, 
+#sidebar .widget.size-choice-widget ul li,
+#single-product-image-wrap,
+#nav li,
+.flx-product .entry-summary header,
+.flx-product .entry-summary,
+.wrapper-dropdown-3,
+.ui-spinner-input,
+.ui-spinner a.ui-spinner-up,
+.product-description .related-product,
+.product-description,
+.ui-spinner a.ui-spinner-down,
+.product-description-content,
+.woocommerce .table th, 
+.woocommerce .table td,
+.woocommerce .table-bordered,
+.woocommerce .product-thumbnail a,
+.shipping_calculator,
+.shipping_calculator header span.shipping-arrow,
+#calc_shipping_state, #calc_shipping_postcode,
+.shipping-calculator-form,
+.woocommerce .coupon,
+.woocommerce .coupon .input-text,
+.left-sidebar .k2t-blog, .left-sidebar .k2t-main, .right-sidebar .k2t-sidebar,
+.right-sidebar .k2t-blog, .right-sidebar .k2t-main, .left-sidebar .k2t-sidebar,
+.k2t-body .k2t-content .k2t-wrap, .k2t-footer .k2t-wrap,
+.widget .posts-list .post-item,
+.product-gallery .products > div:last-child .product-item,
+.product-item,
+.product-item .product-thumb,
+.k2t-iconbox.layout-2,
+.k2t-countdown .ele,
+.k2t-countdown .ele:last-child,
+#frm-subscriptionFront #frm-email,
+.k2t-portfolio-heading .portfolio-title,
+.k2t-portfolio-factor .portfolio-title,
+#commentform #comment,
+.k2t-accordion.style-2 .toggle-title,
+.page-template .right-sidebar, .page-template .left-sidebar, .page-template .no-sidebar,
+.comment-list .comment-body,
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea,
+.right-sidebar .k2t-shop,
+.right-sidebar .k2t-shop-sidebar,
+.woocommerce nav.woocommerce-pagination ul li,
+.woocommerce nav.woocommerce-pagination ul,
+.woocommerce div.product div.summary .price,
+#sequence li,
+.woocommerce div.product .variations .qty,
+#single-product-image-wrap, .woocommerce div.product .woocommerce-tabs,
+.woocommerce div.product .woocommerce-tabs .entry-content #reviews #comments .commentlist > li,
+.woocommerce div.product div.summary, .woocommerce div.product .product-related,
+.orderby, .shipping-calculator-form > p:first-child select, .woocommerce #content div.product form.cart .variations select, .woocommerce div.product form.cart .variations select, .woocommerce-page #content div.product form.cart .variations select, .woocommerce-page div.product form.cart .variations select,
+.woocommerce .quantity .qty,
+.woocommerce-cart table.cart td.actions .coupon .input-text,
+.woocommerce table.shop_table,
+.woocommerce-cart .cart-collaterals .cart_totals tr td, .woocommerce-cart .cart-collaterals .cart_totals tr th {
+	border-color: #3B4747;
+}
+	
+.wpb_column .white-arrow {
+	border-top-color: #1E2A2A;
+}
+
+h1, h2, h3, h4, h5, h6,
+.k2t-header-top .k2t-menu > li > a,
+.k2t-header-mid .k2t-menu > li > a,
+.k2t-header-bot .k2t-menu > li > a,
+.shop-cart .cart-control,
+.flx-divider, #main-menu > li,
+.view,
+.wrapper.flx-line, 
+#main-content .portfolio-widget .widget-title, 
+#main-content .recent-widget .widget-title,
+#main-menu > li > a,
+.service-widget ul li i ,
+.accordion-title h5 a,
+.error-404-right h2,
+.error-404-right p,
+#toggle-view li h5,
+.entry-box footer a,
+.comment-wrap .comment-body .comment-meta .author,
+.flx-product .entry-summary .summary-title,
+.product-item .product-name h3,
+.k2t-iconbox.layout-2 > .iconbox-icon,
+.k2t-detail-nav a i,
+.comment-body .comment-meta .comment-author,
+.woocommerce div.product div.summary .product_title,
+.woocommerce div.product .woocommerce-tabs .entry-content #reviews #comments ol.commentlist li .meta strong {
+	color: #FFF;
+}
+.testimonial-slider-1 .slides a {
+	color:#FFF !important;
+}
+.testimonial-slider .testimonial-author a ,
+p,
+.c-note {
+	color:#8B8B8B
+}
+.carousel-nav a,
+.pf-detail-prev,
+.pf-detail-next,
+.pf-detail-hide,
+.flx-home-page-3 .portfolio-widget .view-more,
+#submit-comment {
+	background-color:#bdb099;
+}
+.testimonial-slider-1 .slides article img,
+.hot-product-widget .shopping-cart-btn .item-quantity   {
+	border-color:#1E2A2A;
+}
+.bottom-tag-line .white-arrow {
+	border-top-color:#1E2A2A;
+}
+
+.widget_search #searchform #s,
+.newsletter-form .email,
+#sidebar .widget_tag_cloud .tagcloud a,
+.list-container-1 ul li a ,
+.progress-bar,
+.acc-wrapper.flat .accordion-title,
+.pf-detail-item .pf-content header,
+.the-icons li:hover,
+#toggle-view li h5,
+.about-author,
+.comment-wrap .comment-body .comment-reply-link,
+.comment-wrap .comment-body .comment-edit-link,
+.entry-box .widget_tag_cloud .tagcloud a,
+.testimonial-slider-1 .slides article,
+.team-area .social-bookmarks li.dribbble a,
+.about-des .social-bookmarks li.dribbble a,
+.team-area .social-bookmarks li.googleplus a,
+.about-des .social-bookmarks li.googleplus a,
+.team-area .social-bookmarks li.twitter a,
+.about-des .social-bookmarks li.twitter a,
+.team-area .social-bookmarks li.facebook a,
+.about-des .social-bookmarks li.facebook a,
+.size-choice-widget ul li a,
+#sidebar .widget_categories ul li span,
+#slider-range.ui-corner-all,
+.owl-theme .owl-buttons > div,
+.k2t-member .team-socials-link li,
+.widget .tagcloud a,
+.k2t-progress .progress-background,
+.toggle-title,
+.k2t-detail-nav a,
+.k2t-detail-item .k2t-content header,
+.wpb_content_element.wpb_tabs.fill .wpb_tabs_nav li,
+.wpb_wrapper h4.wpb_toggle,
+.widget ul li .count,
+.woocommerce div.product .k2t-product-bottom .woocommerce-tabs ul.tabs > li a {
+    background-color: #3B4747;
+}
+#sidebar .widget .widget-title,
+.owl-theme .owl-buttons > div > i,
+.widget-title,
+.toggle-title a,
+.wpb_wrapper h4.wpb_toggle,
+.messagebox_text p {
+	color:#fff;
+}
+
+#sidebar a,
+.product-widget .product-list li .product-name a,
+.price-choice-widget label,
+.flx-slides-4 li .product-item .product-name a,
+.product-detail .entry-categories strong,
+.product-detail .entry-tag strong,
+.flx-product .entry-summary .product-stock span,
+.list-container-1 ul li a,
+.woocommerce .product-price .amount, 
+.woocommerce .product-subtotal .amount,
+.woocommerce .product-name .variation dt,
+.cart-subtotal th strong, 
+.total th strong, .shipping th strong,
+.ui-widget input, .ui-widget select, 
+.ui-widget textarea, 
+.ui-widget button,
+.woocommerce .cart_totals td,
+.cart_totals .wrapper-dropdown-3,
+.shipping_calculator header p,
+.wrapper-dropdown-3,
+.widget a,
+.widget .posts-list .post-item h4 a,
+.wpb_content_element.wpb_tabs.fill .wpb_tabs_nav li > a,
+.woocommerce .widget_price_filter .price_slider_wrapper .price_label,
+.woocommerce div.product .k2t-product-bottom .woocommerce-tabs ul.tabs > li a,
+.woocommerce div.product .product_meta > span > span:not(.sku),
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price, .woocommerce #content div.product p.price, .woocommerce #content div.product span.price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-page #content div.product p.price, .woocommerce-page #content div.product span.price, .woocommerce-page div.product p.price, .woocommerce-page div.product span.price,
+.woocommerce div.product div.summary .stock span,
+.woocommerce table.shop_table td .amount, .woocommerce-page table.shop_table td .amount,
+.woocommerce .cart-collaterals .cart_totals table th, .woocommerce-page .cart-collaterals .cart_totals table th, .woocommerce .cart-collaterals .cart_totals table td, .woocommerce-page .cart-collaterals .cart_totals table td,
+.woocommerce .cart-collaterals .cart_totals table tr.cart-subtotal td, .woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal td, .woocommerce .cart-collaterals .cart_totals table tr.order-total td, .woocommerce-page .cart-collaterals .cart_totals table tr.order-total td {
+	color: #9ec4c4;
+}	
+
+.ei-slider-thumbs li.ei-slider-element{
+	-webkit-box-shadow: 0px 1px 0px 3px #1E2A2A;
+	-moz-box-shadow:  0px 1px 0px 3px #1E2A2A;
+	box-shadow:  0px 1px 0px 3px #1E2A2A;
+}
+.ei-slider-thumbs li a{
+	-webkit-box-shadow: 0px 1px 0px 3px #1E2A2A;
+	-moz-box-shadow: 0px 1px 0px 3px #1E2A2A;
+	box-shadow: 0px 1px 0px 3px #1E2A2A;
+}
+
+.sticky-header {
+	border-bottom: 1px solid #3B4747
+}
+
+.open-sidebar .inner, .open-sidebar .inner::before, .open-sidebar .inner::after {
+	background-color: #fff;
+}
+
+.k2t-breadcrumbs li::before {
+	color: #3B4747;
+}
+
+.wpb_wrapper h4.wpb_toggle::before {
+	background-color: #1e2a2a;
+    color: #8b8b8b;
+}
+
+.orderby, .shipping-calculator-form > p:first-child select, .woocommerce #content div.product form.cart .variations select, .woocommerce div.product form.cart .variations select, .woocommerce-page #content div.product form.cart .variations select, .woocommerce-page div.product form.cart .variations select {
+	background-color: transparent;
+}

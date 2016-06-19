@@ -1,0 +1,203 @@
+/**
+ * The Booking Pro stylesheet for Velo.
+ *
+ * @package Velo
+ * @author  SunriseTheme
+ * @link	http://www.sunrisetheme.com
+ */
+
+/*--------------------------------------------------------------
+	Booking
+--------------------------------------------------------------*/
+
+.dopbsp-sidebar-content {
+	display: block;
+}
+.dopbsp-sidebar-content tr,
+.dopbsp-sidebar-content th,
+.dopbsp-sidebar-content td,
+.dopbsp-sidebar-content table,
+.dopbsp-sidebar-content tbody {
+	display: block;
+	font-family: "PT Serif" ! important;
+}
+.DOPBSPCalendar-sidebar #DOPBSPCalendar-search1.dopbsp-module, 
+.DOPBSPCalendar-outer-sidebar #DOPBSPCalendar-search1.dopbsp-module,
+.DOPBSPCalendar-sidebar .dopbsp-module, 
+.DOPBSPCalendar-outer-sidebar .dopbsp-module,
+.DOPBSPCalendar-sidebar #DOPBSPCalendar-reservation1.dopbsp-module {
+	background: transparent ! important;
+	border: none ! important;
+	margin: 0 ! important;
+	padding: 20px 0 ! important;
+	clear: both;
+}
+.dopbsp-input-wrapper {
+	width: 100%;
+	position: relative;
+}
+.DOPBSPCalendar-sidebar .dopbsp-module .dopbsp-input-wrapper input[type=text].DOPBSPCalendar-check-in-view, 
+.DOPBSPCalendar-sidebar .dopbsp-module .dopbsp-input-wrapper input[type=text].DOPBSPCalendar-check-out-view, 
+.DOPBSPCalendar-outer-sidebar .dopbsp-module .dopbsp-input-wrapper input[type=text].DOPBSPCalendar-check-in-view, 
+.DOPBSPCalendar-outer-sidebar .dopbsp-module .dopbsp-input-wrapper input[type=text].DOPBSPCalendar-check-out-view {
+	background: none !important;
+	padding: 10px 20px !important;
+	width: 100% !important;
+	height: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.DOPBSPCalendar-sidebar .dopbsp-module .dopbsp-input-wrapper input[type=text], 
+.DOPBSPCalendar-outer-sidebar .dopbsp-module .dopbsp-input-wrapper input[type=text],
+.DOPBSPCalendar-sidebar .DOPSelect .dopselect-select, 
+.DOPBSPCalendar-outer-sidebar .DOPSelect .dopselect-select {
+	background: transparent !important;
+	border: 2px dashed #959595 !important;
+	height: 40px;
+	width: 100% ! important
+}
+#DOPBSPCalendar-hours-select1 {
+	width: 66%;
+	float: left;
+}
+#DOPBSPCalendar-no-items-wrapper1 {
+	width: 33%;
+	float: right;
+}
+#DOPBSPCalendar-hours-select1 .DOPBSPCalendar-left.dopbsp-input-wrapper {
+	width: 48% ! important;
+	float: left;
+}
+#DOPBSPCalendar-search1 .DOPBSPCalendar-left.dopbsp-input-wrapper {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#DOPBSPCalendar-search1 > .DOPBSPCalendar-left.dopbsp-input-wrapper:after {
+	font-family: "Simple-Line-Icons";
+	position: absolute;
+	top: 0;
+	right: 20px;
+	line-height: 42px;
+	font-size: 85%;
+	color: #959595;
+	content: "\e075";
+}
+#DOPBSPCalendar-hours-select1 .dopbsp-input-wrapper label,
+#DOPBSPCalendar-search1 input,
+#DOPBSPCalendar-no-items-wrapper1 .dopselect-selection,
+#DOPBSPCalendar-no-items-wrapper1 label {
+	font-family: "PT Serif";
+	font-style: italic;
+}
+#DOPBSPCalendar-hours-select1 .dopbsp-input-wrapper label,
+#DOPBSPCalendar-no-items-wrapper1 label  {
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+.DOPBSPCalendar-sidebar .DOPSelect.dopbsp-small .dopselect-select .dopselect-selection, 
+.DOPBSPCalendar-outer-sidebar .DOPSelect.dopbsp-small .dopselect-select .dopselect-selection {
+	font-family: "PT Serif" ! important;
+	font-style: italic;
+	margin-left: 120px;
+	margin-top: 10px;
+	padding: 0;
+	font-size: 75% ! important;
+}
+.DOPBSPCalendar-sidebar .DOPSelect.dopselect-single.dopbsp-small, 
+.DOPBSPCalendar-outer-sidebar .DOPSelect.dopselect-single.dopbsp-small {
+	width: 100% ! important;
+}
+.DOPSelect.dopselect-single {
+	width: 100% ! important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.DOPSelect.dopselect-single .dopselect-select {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 50px;
+}
+.DOPBSPCalendar-sidebar .DOPSelect .dopselect-select:after, 
+.DOPBSPCalendar-outer-sidebar .DOPSelect .dopselect-select:after {
+	font-family: "FontAwesome";
+	position: absolute;
+	top: 0;
+	right: 20px;
+	line-height: 42px;
+	font-size: 85%;
+	color: #959595;
+	content: "\f107";
+}
+.DOPSelect.dopselect-single .dopselect-select .dopselect-icon {
+	text-indent: -9999em;
+}
+.DOPBSPCalendar-sidebar .dopbsp-input-wrapper .DOPSelect.dopbsp-small ul li, 
+.DOPBSPCalendar-outer-sidebar .dopbsp-input-wrapper .DOPSelect.dopbsp-small ul li {
+	width: 100% ! important;
+}
+#DOPBSPCalendar-reservation1.dopbsp-module h4 {
+	text-transform: uppercase;
+	font-family: "Montserrat" ! important;
+	color: #252525 ! important;
+	padding: 20px 0 0 ! important
+}
+.dopbsp-module h4:after {
+	content: "";
+	width: 100px;
+	height: 2px;
+	background: transparent url("../img/line.png") no-repeat scroll 0% 0%;
+	display: block;
+	margin: 15px 0px;
+}
+#DOPBSPCalendar-reservation-cart1.dopbsp-cart-wrapper .dopbsp-cart td.dopbsp-label, 
+#DOPBSPCalendar-reservation-cart1 .dopbsp-cart-wrapper .dopbsp-cart td.dopbsp-value {
+	color: #959595;
+	font-weight: normal;
+	padding: 2px 0 3px 10px !important;
+	width: 150px;
+	font-style: italic;
+}
+#DOPBSPCalendar-reservation-cart1 .dopbsp-cart-wrapper .dopbsp-cart .dopbsp-total td.dopbsp-label,
+#DOPBSPCalendar-reservation-cart1 .dopbsp-cart-wrapper .dopbsp-cart .dopbsp-total td.dopbsp-value {
+	background: transparent;
+	color: #252525;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 20px 0 20px 10px !important;
+}
+#DOPBSPCalendar-reservation-cart1 .dopbsp-message {
+	font-family: "PT Serif";
+	color: #252525;
+	background: transparent;
+	padding: 20px 0 0;
+	margin-bottom: 0;
+}
+#dopbsp-wc-booking-reservation {
+	margin-top: 20px;
+	display: block;
+	padding: 12px;
+	border: 1px dashed;
+}
+
+.product-cat-hiring  .owl-theme .owl-controls {
+	display: none ! important;
+}
+
+.woocommerce div.product.product-cat-hiring .woocommerce-tabs {
+	width: 100%;
+	float: none;
+}
+.product-cat-hiring .woocommerce-tabs ul.tabs,
+.product-cat-hiring .product_meta,
+.product-cat-hiring .k2t-social-share  {
+	display: none;
+}
+.product-cat-hiring #single-product-image-wrap {
+	overflow: hidden;
+}
